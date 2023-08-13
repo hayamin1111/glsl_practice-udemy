@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  color: #fff;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 36px;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+main h1 {
+  font-size: 50px;
+}
+main p {
+  font-size: 20px;
+}
